@@ -1,0 +1,41 @@
+{
+    "name": "mistery23/laravel-value-objects",
+    "license": "MIT",
+    "homepage": "https://github.com/mistery23/eloquent-object-relations",
+    "description": "laravel object relations",
+    "keywords":
+    [
+        "eloquent",
+        "model",
+        "laravel",
+        "relations"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "mistery23",
+            "email": "mis_tery@ukr.net"
+        },
+        {
+            "name": "Oleksandr Barabolia",
+            "email": "alexandrbarabolya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/database": "~5.8.0|^6.0",
+        "mistery23/eloquent-object-relations": "^1.2",
+        "ramsey/uuid": "^3.8",
+        "marc-mabe/php-enum": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mistery23\\ValueObjects\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
