@@ -8,7 +8,6 @@
         "eloquent",
         "model",
         "laravel",
-        "relations",
         "value objects",
         "vo",
         "ddd",

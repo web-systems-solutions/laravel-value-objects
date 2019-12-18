@@ -1,6 +1,6 @@
 <?php
 
-namespace AMistery23\ValueObjects\Objects;
+namespace Mistery23\ValueObjects\Objects;
 
 /**
  * Class EmailAddress
