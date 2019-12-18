@@ -2,8 +2,8 @@
 
 namespace Mistery23\ValueObjects\Objects;
 
-use App\ValueObjects\Util;
-use App\ValueObjects\ValueObjectInterface;
+use Mistery23\ValueObjects\Util;
+use Mistery23\ValueObjects\ValueObjectInterface;
 
 /**
  * Class NativeType
