@@ -14,7 +14,7 @@ For the provide back capability in relations, in this package use `mistery23/elo
 You can use the `Mistery23\ValueObjects\Objects\EmailAddress` for your email attribute.
 You can extend the `Mistery23\ValueObjects\Objects\EnumType` for your status attribute (`marc-mabe/php-enum`).
 
-If you want to create own value object type, you can extend `Mistery23\ValueObjects\Objects\NativeType` for simple object, or implement `Mistery23\ValueObjects\ValueObjectInterface` 
+If you want to create own value object type, you can extend `Mistery23\ValueObjects\Objects\NativeType` for simple object, or implement `Mistery23\ValueObjects\ValueObjectInterface`. 
 
 ---
 
@@ -60,4 +60,4 @@ File Tree
 ---
 License
 ---
-This package is free software distributed under the terms of the MIT license. Enjoy!
+This package is free software distributed under the terms of the [MIT license](https://opensource.org/licenses/MIT). Enjoy!
