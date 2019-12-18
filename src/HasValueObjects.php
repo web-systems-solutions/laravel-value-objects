@@ -2,6 +2,8 @@
 
 namespace Mistery23\ValueObjects;
 
+use Mistery23\ObjectRelations\HasObjectRelations;
+
 /**
  * ```php
  *      class User extends Model {
@@ -18,6 +20,8 @@ namespace Mistery23\ValueObjects;
  */
 trait HasValueObjects
 {
+
+    use HasObjectRelations;
 
     /**
      * @var array
